@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+h1.titulo{
+    color: rgb(87, 9, 22);
+    text-align: center;
+}
+
+img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+
+a.carta{
+    position: relative;
+    display: inline;
+}
+a.cafe{
+    position: relative;
+    display: inline-block;
+    left: 40%;
+}
+a.contacto{
+    position: relative;
+    display: inline-block;
+    left: 80%;
+}
+
+#two{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: +40%;
+}
+
+#three{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: +80%;
+}
