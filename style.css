@@ -9,7 +9,14 @@ h1.titulo{
 p{
     color: rgb(197, 7, 7);
 }
-
+h3{
+    color: brown;
+    text-align: center;
+}
+h4{
+    color: brown;
+    text-align: center;
+}
 img{
     display: inline;
     width: 100px;
@@ -19,16 +26,19 @@ img{
 a.carta{
     position: relative;
     display: inline;
+    color: brown;
 }
 a.cafe{
     position: relative;
     display: inline-block;
     left: 40%;
+    color: brown;
 }
 a.contacto{
     position: relative;
     display: inline-block;
     left: 80%;
+    color: brown;
 }
 
 #two{
@@ -43,4 +53,30 @@ a.contacto{
     width: 100px;
     height: 100px;
     left: +80%;
+}
+p.formulario{
+    display: inline-table;
+    color: brown;
+
+}
+div{
+    position: relative;
+    left: 40%;
+    width: 400px;
+    height: 160px;
+    background-color: rgb(255, 218, 173);
+    border: brown 2px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+p.center{
+    color: brown;
+    text-align: center;
+}
+
+a.a{
+    color: brown;
 }

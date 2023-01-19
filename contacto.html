@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+ 
+        function funcion_form(){
+            var nombre = document.getElementById("nom").value
+            var telefono = document.getElementById("telf").value
+            alert("Hola " + nombre + ", le atenderemos lo antes posible")
+        }
+        
+        
+        </script>
+</head>
+<body>
+    <header><h1 class="titulo">Contacto</h1></header> 
+    <a class="a" href="index.html">Volver al home ➦</a>
+<hr color="brown">
+<h3>Telefono de contacto: 645 923 677</h3>
+<h3>Dirección: Calle delicias 47</h3>
+<h3>Horario</h3>
+<p class="center">De lunes a viernes 10:00-2:30</p>
+<p class="center">Sabados y domingos 9:00-2:00</p>
+<div>
+    <h3>Formulario</h3>
+<p class="formulario">Introduce tu nombre:</p> <input type="text" id="nom">
+<br>
+<p class="formulario">Introduce tu telefono:</p> <input type="text" id="telf" onblur="funcion_form()">
+
+</div>
+</body>
+</html>
